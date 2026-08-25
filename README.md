@@ -203,37 +203,6 @@ The camera uses dedicated GPIOs on the XIAO ESP32S3 Sense, so external wiring sh
 
 ---
 
-# 📁 Project Structure
-
-```text
-DrainGuard/
-│
-├── MainController/
-│   └── DrainGuard_Controller.ino
-│
-├── CameraServer/
-│   └── DrainGuard_Camera_Server.ino
-│
-├── WebDashboard/
-│   ├── dashboard.html
-│   ├── style.css
-│   └── script.js
-│
-├── Hardware/
-│   ├── wiring-diagram.png
-│   ├── circuit-diagram.png
-│   └── pinout.md
-│
-├── Documentation/
-│   ├── system-architecture.md
-│   ├── blockage-detection.md
-│   └── testing.md
-│
-└── README.md
-```
-
----
-
 # 💻 Software
 
 DrainGuard is developed using the **Arduino IDE**.
